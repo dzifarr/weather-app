@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)file:///C:/Users/DZIFA%20RENNER-MENSAH/finalproject1.html -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jollof Rice</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Jollof Rice🍲</h1>
+      <h2>I love Ghanaian Jollof rice</h2>
+      <img src="./finalproject1_files/smoky-Nigerian-jollof-rice-5.jpg" />
+      <p>
+        Jollof, or jollof rice, is a rice dish from West Africa. The dish is
+        typically made with long-grain rice, tomatoes, chilies, onions, spices,
+        and sometimes other vegetables and/or meat in a single pot, although its
+        ingredients and preparation methods vary across different regions.
+        <br />
+        Main ingredients: Rice, tomatoes and tomato paste, onions, chili peppers
+        and cooking oil.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Jollof_rice">📖For more info</a>
+      <button>Buy Jollof rice</button>
+      <p class="text"><em>Coded</em> by Dzifa Renner-Mensah</p>
+    </div>
+
+    <script>
+      function ghanaFood() {
+        let name = prompt("What name is your name?");
+        let country = prompt("Waht country are you from?");
+
+        if (name >= "0") {
+          alert(
+            "Okay" +
+              " " +
+              name +
+              ", " +
+              "go out and try Ghana Jollof in any African shop today."
+          );
+        } else {
+          alert(
+            "Hey Null, don't be like the Nigerians and not try Ghana Jollof okay!"
+          );
+        }
+      }
+
+      let food = document.querySelector("button");
+
+      food.addEventListener("click", ghanaFood);
+    </script>
+  </body>
+</html>
