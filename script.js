@@ -1,6 +1,6 @@
 function ghanaFood() {
   let name = prompt("What name is your name?");
-  let country = prompt("Waht country are you from?");
+  let country = prompt("What country are you from?");
 
   if (name >= "0") {
     alert(
